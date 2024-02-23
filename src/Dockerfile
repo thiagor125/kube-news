@@ -1,4 +1,4 @@
-FROM node:18.12.2
+FROM node:18.12.1
 WORKDIR /app
 COPY package*json ./
 RUN  nmp install 
